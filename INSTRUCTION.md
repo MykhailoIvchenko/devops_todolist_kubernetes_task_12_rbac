@@ -9,7 +9,7 @@ This document describes how to validate the RBAC configuration and deployment fo
 - You have `kubectl` installed and configured.
 - You have access to the Kubernetes cluster created by `kind` or other means.
 - Your manifests are located in the `.infrastructure` directory with the following structure:
-  - `.infrastructure/security/rbac.yml`
+  - `.infrastructure/security/rb`
   - `.infrastructure/app/deployment.yml`
   - `cluster.yml` for kind cluster configuration
 
