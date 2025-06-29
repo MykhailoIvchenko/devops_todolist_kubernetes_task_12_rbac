@@ -9,9 +9,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-from dotenv import load_dotenv
 import os
-load_dotenv()
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
