@@ -9,7 +9,9 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 """
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+from dotenv import load_dotenv
 import os
+load_dotenv()
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
@@ -65,6 +67,7 @@ DB_NAME = os.environ.get("DB_NAME", "")
 DB_USER = os.environ.get("DB_USER", "")
 DB_PASSWORD = os.environ.get("DB_PASSWORD", "")
 DB_HOST = os.environ.get("DB_HOST", "")
+
 
 DATABASES = {
     'default': {
